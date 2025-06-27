@@ -1,7 +1,10 @@
-package com.example.datastreamcreator;
+package com.example.datastreamcreator.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+
+import com.example.datastreamcreator.config.DatastreamProperties;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
